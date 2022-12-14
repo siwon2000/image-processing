@@ -1,3 +1,5 @@
+//점수 45점
+
 let src = cv.imread('canvasInput');
 let dst = cv.Mat.zeros(src.cols, src.rows, cv.CV_8UC3);
 cv.putText(dst, "circle", {x:70,y:90}, cv.FONT_HERSHEY_SIMPLEX, 0.5, [0, 255,0,0], 1)
